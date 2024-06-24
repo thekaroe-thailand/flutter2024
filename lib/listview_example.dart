@@ -18,6 +18,11 @@ class ListviewExample extends StatelessWidget {
             return ListTile(
               leading: const Icon(Icons.person),
               title: Text('Person ${index + 1}'),
+              subtitle: const Text('sub title'),
+              trailing: const Icon(
+                Icons.arrow_right,
+                color: Colors.blue,
+              ),
             );
           },
         ),
